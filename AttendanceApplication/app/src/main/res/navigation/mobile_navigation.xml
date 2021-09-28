@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.attendanceapplication.fragment.home.HomeFragment"
+        android:label="Trang chủ"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_add_list"
+        android:name="com.example.attendanceapplication.fragment.addlist.AddListFragment"
+        android:label="Thêm danh sách"
+        tools:layout="@layout/fragment_add_list" />
+    <fragment
+        android:id="@+id/nav_attend"
+        android:name="com.example.attendanceapplication.fragment.AttendFragment"
+        android:label="Điểm danh"
+        tools:layout="@layout/fragment_attend" />
+    <fragment
+        android:id="@+id/nav_forgot_card"
+        android:name="com.example.attendanceapplication.fragment.ForgotCardFragment"
+        android:label="Quên thẻ"
+        tools:layout="@layout/fragment_forgot_card" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.example.attendanceapplication.fragment.ReportFragment"
+        android:label="Danh sách điểm danh"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/nav_sign_up"
+        android:name="com.example.attendanceapplication.fragment.SignUpFragment"
+        android:label="Đăng kí/Chỉnh sửa"
+        tools:layout="@layout/fragment_sign_up" />
+
+
+</navigation>

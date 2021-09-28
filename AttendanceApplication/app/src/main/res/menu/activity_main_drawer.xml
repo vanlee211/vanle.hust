@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_add_list"
+            android:icon="@drawable/ic_list_stu"
+            android:title="Thêm danh sách" />
+        <item
+            android:id="@+id/nav_attend"
+            android:icon="@drawable/ic_attend"
+            android:title="Điểm danh" />
+        <item
+            android:id="@+id/nav_forgot_card"
+            android:icon="@drawable/ic_forgot_card"
+            android:title="Quên thẻ"/>
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_check_list"
+            android:title="Danh sách điểm danh"/>
+        <item
+            android:id="@+id/nav_sign_up"
+            android:icon="@drawable/icon_signup"
+            android:title="Đăng kí/Chỉnh sửa"/>
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/icon_signout"
+            android:title="Đăng xuất"/>
+    </group>
+</menu>

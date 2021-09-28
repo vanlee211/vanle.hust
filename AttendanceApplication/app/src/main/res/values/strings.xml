@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Attendance Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_add_list">Thêm danh sách</string>
+    <string name="nav_attend">Điểm danh</string>
+    <string name="nav_forgot_card">Quên thẻ</string>
+    <string name="nav_report">Danh sách điểm danh</string>
+    <string name="nav_sign_up">Đăng kí/Chỉnh sửa</string>
+    <string name="nav_sign_out">Đăng xuất</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
